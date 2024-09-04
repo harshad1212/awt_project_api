@@ -1,0 +1,144 @@
+
+body {
+  margin: 0;
+  font-family: Protest Revolution, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(45deg,rgb(145, 50, 50),rgb(110, 104, 104),rgb(36, 12, 12));
+  color: rgb(184, 178, 178);
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Navbar styling */
+.navbar {
+  background-color: transparent; 
+  backdrop-filter: blur(20px); 
+  box-shadow: 0px 0px 5px black;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  color: white; /* Color of the navbar toggler icon */
+}
+
+.nav-link {
+  color: white !important; /* Color of the navbar links */
+  transition: color 0.3s ease-in-out; /* Smooth transition for link color */
+  font-size: large;
+}
+
+.nav-link:hover {
+  color: #ffc107 !important; /* Change color on hover */
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+/* Navbar animation */
+@keyframes slideInDown {
+  0% {
+      transform: translateY(-100%);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.navbar {
+  z-index: 200;
+  animation: slideInDown 1s ease-in-out ;
+}
+
+/* Add this CSS for Home component styling */
+
+.container-fluid {
+  padding: 20px;
+  background-image: linear-gradient(45deg,rgba(190, 6, 6, 0.795),rgb(146, 72, 72),rgb(88, 63, 63),rgb(189, 144, 144),rgb(196, 17, 17));
+  text-align: center;
+  column-gap: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #837b7b;
+  background: transparent;
+  color: whitesmoke;
+  width: auto;
+  padding: 5px;
+  font-weight: bold;
+  height: 80vh ;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(24, 23, 23, 0.1);
+  transition: box-shadow 0.1s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 16px rgba(10, 10, 10, 0.2);
+ 
+}
+
+.card-title {
+  font-size: 1.2rem;
+  height: 10%;
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  height: 30vh;
+  width:100px ;
+  background: transparent;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  
+  
+  justify-content: center;
+  width: auto;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+  background-color: #ffca2c;
+}
+
+.card-img-top{
+  max-width: 100%;
+  width: 100%;
+}
+.container{
+  margin-top: 20px;
+}

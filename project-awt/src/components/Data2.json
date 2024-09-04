@@ -1,0 +1,48 @@
+[{
+    "title":"Glock G22.", 
+    "price":50500,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag1.png",
+    "description":"Processor: Intel Core i3-1115G4 11th Generation (up to 4.10 GHz) 2 Cores, 6MB Cache RAM & Storage: 8GB, 8Gx1, DDR4, 3200MHz_2666MHz Ach, (2 DIMM Slots, Expandable upto 16GB) & 256GB SSD"
+},
+{
+    "title":"ASlimline. Glock G36.",
+    "price":45980,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag2.png",
+    "description":"AMD Dual Core CPU : AMD Ryzen 3 3250U Processor (Base Frequency at 2.60GHz, Up to 3.50GHz at Maximum Boost Clock, 2 Cores, 4MB Cache, 4 Threads). The perfect combination of performance, power consumption, and value helps your device run smoothly."
+},
+{
+    "title":"Desert Eagle",
+    "price":52385,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag3.png",
+    "description":"4-core 11th Gen Intel Core i5-1155G7 8 threads and 8MB L3 cache deliver fast processing speeds and instant responsiveness. The Intel Iris Xᵉ graphics help you dive into crisp, stunning visuals."
+},
+{
+    "title":"Revolvers",
+    "price":30990,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag4.png",
+    "description":"ASUS [Smart Choice] Vivobook 15, Intel Celeron N4020, 15.6 inch (39.62 cms) HD, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Fingerprint/Silver/1.8 kg), X515MA-BR024WS"
+},
+{
+    "title":"Hammer fired",
+    "price":35690,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag5.png",
+    "description":"Lenovo IdeaPad Slim 3 Intel Core i3 11th Gen 14inch (35.56cm) FHD Thin & Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/2Yr Warranty/3months Game Pass/Arctic Grey/1.41Kg), 82H701DNIN"
+},
+{
+    "title":"Glock G30",
+    "price":32990,
+    "count":5,
+    "category":"pistol",
+    "url":"images/imag6.png",
+    "description":"Acer Aspire Lite 11th Gen Intel Core i3-1115G4 Premium Thin & Light Laptop (8GB RAM/256GB SSD/Intel UHD Graphics/Win 11 Home) AL15-51, 39.62cm (15.6inch) Full HD Display, Metal Body, Steel Grey, 1.59 KG"
+}]

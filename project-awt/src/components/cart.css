@@ -1,0 +1,11 @@
+.cart-container{
+    background-color: rgba(116, 26, 4, 0.568);
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+}
+.container{
+    border: 2px solid rgb(139, 137, 137);
+    background: transparent;
+    backdrop-filter: blur(15px);
+}

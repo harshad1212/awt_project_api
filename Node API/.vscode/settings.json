@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e11f3778-eb3f-41eb-b4b3-1f3fdf53f2bc/resourceGroups/APIAWTNode/providers/Microsoft.Web/sites/APIWeponStore",
+    "appService.deploySubpath": "."
+}

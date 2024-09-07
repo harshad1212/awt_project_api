@@ -172,5 +172,5 @@ const Home = (props) => {
         </>
     );
 };
-
+console.clear();
 export default Home;

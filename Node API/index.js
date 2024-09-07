@@ -10,7 +10,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://harshadkd:harshu123@projectdb.2kzrche.mongodb.net/?retryWrites=true&w=majority&appName=Projectdb").then(() => {
+mongoose.connect("mongodb+srv://harshadkd:2UsKNohl9YnrbyMl@projectdb.2kzrche.mongodb.net/").then(() => {
   console.log("db conected");
 })
 

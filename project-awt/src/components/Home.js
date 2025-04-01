@@ -19,7 +19,7 @@ const Home = (props) => {
     const handleSubmit = (id) => {
 
 
-        axios.post('http://localhost:3000/addtocart/' + id)
+        axios.post('https://awt-project-api.onrender.com/addtocart/' + id)
             .then(ans => {
                 console.log(ans)
             })
@@ -30,7 +30,7 @@ const Home = (props) => {
     useEffect(() => {
 
         //display
-        axios.get('http://localhost:3000/productsword')
+        axios.get('https://awt-project-api.onrender.com/productsword')
             .then(ans => {
                 setProduct(ans.data)
                 console.log(ans)
@@ -40,7 +40,7 @@ const Home = (props) => {
     useEffect(() => {
 
         //display
-        axios.get('http://localhost:3000/productpistol')
+        axios.get('https://awt-project-api.onrender.com/productpistol')
             .then(ans => {
                 setProduct2(ans.data)
                 console.log(ans)

@@ -10,9 +10,10 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://harshadkd:2UsKNohl9YnrbyMl@projectdb.2kzrche.mongodb.net/").then(() => {
+mongoose.connect("mongodb+srv://weaponStore:weaponStore@cluster0.ephearn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0").then(() => {
   console.log("db conected");
 })
+
 
 app.post("/login", (req, res) => {
   console.log(req.body)
